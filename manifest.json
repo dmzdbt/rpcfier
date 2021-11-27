@@ -1,0 +1,17 @@
+{
+  "name": "rpcifier",
+  "description": "replace project's rpc with your own. ??? profit.",
+  "version": "1.0",
+  "manifest_version": 2,
+
+  "permissions": ["storage", "webRequest", "webRequestBlocking", "<all_urls>"],
+
+  "browser_action": {
+    "default_title": "rpcfier",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
